@@ -1,0 +1,112 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+}
+
+.initial-input {
+    color: black;
+    text-align: center;
+}
+.input-field, .continue-btn{
+    height: 10%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.input-field{
+    margin-right: 10px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.chatbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(5px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbox {
+    color: black;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.close-btn{
+    position: absolute;
+    top:10px;
+    left: 60%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.close-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+}
+.user-message{
+    background-color: #d1e7dd;
+    text-align: right;
+}
+.bot-message, .user-message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.bot-logo{
+    width: 5%;
+    height: 5%;
+    margin-right: 6px;
+}
+
+.service-options {
+    margin-top: 10px;
+    color: black;
+}
+
+.option {
+    margin: 5px 0; 
+}
+.service-options :hover{
+    background-color: #9a9797;
+    color: black;
+}
+.user-input-section{
+    color: black;
+    width: 100%;
+    padding: 8px;
+    margin-right: 5px;
+}
+.user-input-section button{
+    padding: 6px;
+    margin-top: 5px;
+}
+.input-data{
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 50%;
+    padding-bottom: 3%;
+    margin-right: 50%;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
